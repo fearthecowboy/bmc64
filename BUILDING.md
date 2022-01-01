@@ -4,13 +4,9 @@ These instructions have been tested on Debian/Ubuntu/Mint distributions. If you 
 
 ----
 ## Prerequisites
-1. If your system doesn't already have them, install all of the regular build tools:
+1. If your system doesn't already have them, install all of the regular build tools and the 65xx cross assembler:
 
-        sudo apt-get install git build-essential automake autoconf libtool pkg-config autoconf-archive autotools-dev
-
-2. Install the 65xx cross assembler:
-
-        sudo apt-get install xa65
+        sudo apt-get install git build-essential automake autoconf libtool pkg-config autoconf-archive autotools-dev bison flex xa65 -y
 
 
 ----
